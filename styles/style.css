@@ -22,7 +22,6 @@
 .header_nav_list {
   grid-auto-flow: column;
   gap: 20px;
-  list-style: circle;
   margin: 0;
   padding-left: 30px;
   display: flex;
@@ -442,7 +441,6 @@ article {
 .footer_menu_link_about {
   padding-left: 21px;
   text-underline-offset: 4px;  
-
 }
 
 .footer_social_list {
@@ -472,4 +470,3 @@ article {
   padding-left: 31px;
 
 }
-
