@@ -193,7 +193,7 @@ span {
 }
 
 .lots {
-  padding-top: 253.4px;
+  padding-top: 183.4px;
   width: 1100px;
   height: auto;
   min-height: 0;
@@ -208,7 +208,7 @@ span {
   padding-left: 64px;
   position: relative;
   top: -10.7%;
-  margin-bottom: -39px;
+  margin-bottom: -1px;
 }
 
 .lots_card_list {
@@ -218,6 +218,7 @@ span {
   width: 100%;
   max-height: none;
   height: auto;
+  padding-top: 32px;
 }
 
 .lots_card_list_item {
@@ -327,9 +328,9 @@ article {
 .about {
   display: grid;
   grid-template-columns: 350px 1fr;
-  margin-bottom: 180px;
   width: 1052px;
   height: 595px;
+  margin-bottom: 136px;
 }
 
 .about_title {
@@ -339,7 +340,7 @@ article {
   height: 47px;
   font-size: 40px;
   margin-left: 32.6px;
-  margin-top: 255px;
+  margin-top: 231px;
 
 }
 
@@ -350,7 +351,7 @@ article {
   background-color: #000000;
   border-radius: 50%;
   margin-left: 71px;
-  margin-top: 153px;
+  margin-top: 128px;
 }
 
 .about_logo_image {
@@ -365,10 +366,7 @@ article {
   display: grid;
   grid-column: 2;
   font-size: 20px;
-  gap: 25px;
   margin-top: 9px;
-  line-height: 24px;
-  letter-spacing: 0;
   color: #000000;
   gap: 25px;
   margin-left: 32px;
@@ -396,7 +394,7 @@ article {
   grid-template-columns: 1fr 1fr 1fr;
   width: 1100px;
   height: 180px;
-  padding-top: 118px;
+  padding-top: 137px;
   
 }
 
@@ -409,16 +407,6 @@ article {
   font-style: normal;
   padding-left: 50px;
   text-underline-offset: 4px;
-}
-
-.footer_contact {
-
-
-}
-
-.footer_address {
-
-
 }
 
 .footer_menu {
@@ -437,11 +425,6 @@ article {
 
 .footer_menu_list_item {
   padding-top: 3px;
-
-}
-
-.footer_menu_link {
-
 
 }
 
@@ -475,11 +458,6 @@ article {
 
 }
 
-.footer_social_link {
-
-
-}
-
 .footer_social_link_yt {
   padding-left: 76px;
 
@@ -494,3 +472,4 @@ article {
   padding-left: 31px;
 
 }
+
