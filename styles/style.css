@@ -67,6 +67,10 @@
 .address {
   display: block;
   max-width: 290px;
+  height: auto;
+  font-style: normal;
+  padding-left: 50px;
+  text-underline-offset: 4px;
   line-height: 24.3px;
   letter-spacing: 0;
   font-size: 18px;
@@ -404,17 +408,6 @@ article {
   width: 1100px;
   height: auto;
   padding-top: 158px;
-}
-
-.address {
-  width: 290px;
-  height: auto;
-  font-size: 18px;
-  line-height: 24.3px;
-  letter-spacing: 0;
-  font-style: normal;
-  padding-left: 50px;
-  text-underline-offset: 4px;
 }
 
 .footer_address_text {
