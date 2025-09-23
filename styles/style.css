@@ -29,10 +29,6 @@
   padding-left: 10px;
 }
 
-.header_nav_item {
-
-}
-
 .header_nav_link {
   display: grid;
   padding: 8px 10px;
@@ -408,7 +404,6 @@ article {
   width: 1100px;
   height: auto;
   padding-top: 158px;
-  
 }
 
 .address {
@@ -422,14 +417,8 @@ article {
   text-underline-offset: 4px;
 }
 
-.footer_address {
-
-
-}
-
 .footer_address_text {
   max-width: 238px;
-
 }
 
 .footer_menu {
