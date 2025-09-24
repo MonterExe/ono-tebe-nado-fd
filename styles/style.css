@@ -29,6 +29,11 @@
   padding-left: 10px;
 }
 
+.header_nav_main_item {
+  list-style: none;
+
+}
+
 .header_nav_link {
   display: grid;
   padding: 8px 10px;
@@ -116,10 +121,9 @@
   padding-top: 0px;
   min-height: 756px;
   height: auto;
-  max-height: 800px;
   margin: 0 auto;
   position: relative;
-  background-image: url(/images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -144,9 +148,7 @@
   letter-spacing: 30px;
   font-size: 100px;
   line-height: 114px;
-  width: 1100px;
-  min-height: 670px;
-  max-height: 670px;
+  width: 1100px; 
 }
 
 span {
@@ -171,19 +173,17 @@ span {
 .aligned_text_right {
   align-self: flex-end;
   padding-right: 20px;
-  padding-bottom: 129px;
+  padding-bottom: 91px;
 
 }
 
 .cover_description {
   display: flex;
-  position: relative;
-  width: 1002px;
-  height: 53px;
-  padding-bottom: 36px;
-  z-index: 3;
-  top: 83%;
-  left: 4.5%;
+  align-items: center;
+  width: 1049px;
+  padding-left: 50px;
+  padding-bottom: 32px;
+  padding-top: 15px;
 }
 
 .cover_description_text {
@@ -193,6 +193,7 @@ span {
   color: #FFFFFF;
   word-spacing: 18.5px;
   padding-top: 0px;
+  z-index: 3;
 }
 
 .bet_button {
@@ -206,6 +207,7 @@ span {
   background: none;
   color: #FFFFFF;
   border: solid 1px currentColor;
+  z-index: 3;
 }
 
 .lots {
@@ -222,8 +224,6 @@ span {
   line-height: 100%;
   letter-spacing: 0;
   padding-left: 64px;
-  position: relative;
-  top: -10.7%;
   margin-bottom: 1px;
 }
 
@@ -232,7 +232,6 @@ span {
   flex-wrap: wrap;
   align-items: flex-start;
   width: 100%;
-  max-height: 659px;
   height: auto;
   padding-top: 32px;
 }
@@ -241,7 +240,7 @@ span {
   display: flex;
   flex-direction: column;
   width: 359px;
-  min-height: 675px;
+  min-height: 628px;
   padding-left: 24px;
   height: auto;
 
@@ -282,6 +281,7 @@ article {
 .card {
   display: flex;
   flex-direction: column;
+  min-height: 594px;
   height: 100%;
   font-size: 20px;
   line-height: 120%;
@@ -296,27 +296,18 @@ article {
 .card_text {
   display: flex;
   width: 256px;
+  margin-top: auto;
+  padding-bottom: 46px;
   flex-direction: column;
-  padding-top: 276px;
+  padding-top: 36px;
   text-decoration: none;
   text-transform: none;
   z-index: 2;
 }
 
-.card_text_type_book {
-  padding-top: 34px;
-
-}
-
-.card_text_type_picture {
-  text-decoration: none;
-  padding-top: 129px;
-
-}
-
 .card_link {
   width: 334px;
-  height: 595px;
+  height: auto;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 22px;
@@ -382,7 +373,7 @@ article {
   font-size: 20px;
   margin-top: 10px;
   color: #000000;
-  gap: 0px;
+  gap: 23px;
   margin-left: 32px;
   line-height: 24px;
   letter-spacing: 0;
@@ -390,16 +381,12 @@ article {
 
 .about_text_meet_item {
   width: 680px;
-  height: 141px;
-
 }
 
 .about_text_item {
   width: 701px;
-  min-height: 163px;
   padding-left: 0px;
   padding-right: 7px;
-
 }
 
 .footer {
